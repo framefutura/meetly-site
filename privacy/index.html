@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Meetly</title>
+<meta name="description" content="Meetly Privacy Policy — what we collect, why, where it is stored, and how to delete it.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/meetly-site/assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/meetly-site/">Meetly</a>
+  <nav>
+    <a href="/meetly-site/privacy/" aria-current="page">Privacy</a>
+    <a href="/meetly-site/terms/">Terms</a>
+    <a href="/meetly-site/support/">Support</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: November 6, 2026</p>
+
+  <p class="lede">Meetly helps families coordinate calendars, activities, and plans together. This policy explains what information we process, why, where it lives, and the controls you have over it. It applies to the Meetly iOS app and the meetly.app website.</p>
+
+  <h2>1. In short</h2>
+  <ul>
+    <li>Meetly does <strong>not</strong> sell your personal information and does <strong>not</strong> show you ads.</li>
+    <li>Your data is stored in <strong>Apple CloudKit</strong> under your own iCloud account. We cannot read data that you keep hidden.</li>
+    <li>Anything you share inside a group is visible to that group&#8217;s members only — groups are private and invite-only.</li>
+    <li>Deleting your account from the app erases your data; see <a href="#deletion">section 8</a>.</li>
+    <li>Meetly learns your preferences <strong>on your device</strong>. That learning data stays in your own private iCloud database, can be exported as JSON, and can be switched off at any time; see <a href="#learning">section 3</a>.</li>
+  </ul>
+
+  <h2>2. Information we collect</h2>
+  <table>
+    <tr><th>Category</th><th>What it is</th><th>Why we use it</th></tr>
+    <tr>
+      <td>Account identity</td>
+      <td>The unique <strong>Sign in with Apple</strong> identifier, plus your chosen name and email (only if you opt to share them via Sign in with Apple&#8217;s private relay).</td>
+      <td>Identifying you across devices and letting you join groups.</td>
+    </tr>
+    <tr>
+      <td>Calendar &amp; reminders</td>
+      <td>Events and to-dos you import from Apple Calendar / Reminders, and events/todos you create in Meetly.</td>
+      <td>Showing and syncing your family calendar; only the data you choose to import.</td>
+    </tr>
+    <tr>
+      <td>Contacts</td>
+      <td>Contact names/emails you explicitly pick when inviting someone to a group.</td>
+      <td>Sending invitations on your behalf. We never upload your whole address book.</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Approximate location when you use location-based features (weather, nearby recommendations).</td>
+      <td>Weather and local activity suggestions. Not tracked in the background.</td>
+    </tr>
+    <tr>
+      <td>User content</td>
+      <td>Events, to-dos, groups, polls, votes, chat messages, and any content you post in a group.</td>
+      <td>Operating the service. Content is shared only with the members of the groups you choose.</td>
+    </tr>
+    <tr>
+      <td>Usage data</td>
+      <td>Feature-usage events (e.g. creating a to-do, opening a group, voting in a poll, viewing a recommendation), foreground session length, and app/device version. Stored in your own <strong>private iCloud database</strong>.</td>
+      <td>Powering <strong>on-device personalization</strong>: Meetly learns your preferences locally (and syncs across your own devices) to improve suggestions. Never sent to Meetly&#8217;s servers, never sold, never used for advertising. You can turn this off and export the data.</td>
+    </tr>
+    <tr>
+      <td>Purchase information</td>
+      <td>Subscription status and entitlements, processed by <strong>Apple StoreKit</strong>.</td>
+      <td>Activating subscription features. We never see your payment card details.</td>
+    </tr>
+  </table>
+
+  <h2 id="learning">3. Usage data and on-device learning</h2>
+  <p>To make suggestions better over time, Meetly records how the app is used. This section describes exactly what that means; the point is that <strong>the learning happens on your device and the records stay inside your own iCloud account</strong>.</p>
+
+  <h3>What is recorded</h3>
+  <ul>
+    <li><strong>Feature events</strong>: actions such as creating or completing a to-do, creating an event, creating a group, sending a chat message, voting in a poll, opening or saving a suggestion, converting a suggestion into an event, viewing the subscription page, or changing a setting. Each event carries a name, the area of the app it happened in, the object type and opaque object identifier (for example a to-do ID), a small numeric value such as a dwell time or message length, and a short JSON context.</li>
+    <li><strong>Session records</strong>: when a foreground session starts and ends, how long it lasted, whether it was a cold or warm launch, and how many events occurred in it.</li>
+    <li><strong>Daily summaries</strong>: per-day counts of events, sessions, and active seconds, plus per-surface and per-event-name totals.</li>
+    <li><strong>Environment</strong>: app version, iOS version, and device model identifier &mdash; used only to interpret the numbers correctly (a layout change or OS upgrade can shift behaviour).</li>
+  </ul>
+  <p>Meetly does <strong>not</strong> record the text of your chat messages beyond a character count, your contacts, your photos, the contents of your calendar entries, precise location trails, advertising identifiers (IDFA/IDFV), or any keyboard input.</p>
+
+  <h3>Where it is stored and who can read it</h3>
+  <p>Usage events, sessions, and daily summaries are stored on your device and mirrored to the <strong>CloudKit private database of your own iCloud account</strong>. Apple&#8217;s private database is scoped to the signed-in iCloud user: <strong>FrameFutura Studio cannot query, read, or export it</strong>, and no other Meetly user can see it. We operate no analytics server and send this data to no third party. It participates in your normal iCloud backup and, if you enable Advanced Data Protection, in end-to-end encryption.</p>
+
+  <h3>What it is used for</h3>
+  <p>These records are training inputs for <strong>on-device personalization</strong>: they let Meetly rank activity suggestions, remember categories you like or avoid, learn the times and places you usually plan for, and adapt recommendation prompts. They are never sold, never used for advertising, and never used to build a cross-app profile.</p>
+
+  <h3>Your controls</h3>
+  <ul>
+    <li><strong>Turn it off</strong>: <em>Settings → Privacy &amp; Data → On-device learning data</em>. When off, no new events or sessions are recorded. The app keeps working normally, with recommendations falling back to non-personalized results.</li>
+    <li><strong>Export it</strong>: <em>Settings → Privacy &amp; Data → Export My Usage Data (JSON)</em> writes every locally stored usage event, session, and daily summary to a JSON file you can save or share.</li>
+    <li><strong>Erase it</strong>: deleting your account removes these records along with the rest of your data (see <a href="#deletion">section 8</a>); clearing the app&#8217;s data or deleting the app removes the on-device copy.</li>
+  </ul>
+
+  <h2>4. Where your data is stored</h2>
+  <p>Meetly stores your data in <strong>Apple CloudKit</strong>, on Apple&#8217;s infrastructure, associated with your iCloud account:</p>
+  <ul>
+    <li><strong>Private data</strong> (your personal calendar, preferences, AI feedback, and usage-learning events) — visible only to you on your devices.</li>
+    <li><strong>Shared data</strong> (groups, messages, polls) — visible only to members of each group.</li>
+    <li><strong>Public data</strong> — only non-personal aggregate placeholders used for future community features.</li>
+  </ul>
+  <p>On-device content (such as your calendar import) is protected by iOS security. Transfers to and from Apple use industry-standard encryption. Meetly does not operate its own servers.</p>
+
+  <h2>5. Third-party services</h2>
+  <p>To build recommendations, Meetly sends <strong>search terms only</strong> (keywords, dates, and sometimes an approximate location) to the following content providers. No account identifiers, contacts, or messages are sent to them:</p>
+  <ul>
+    <li>Ticketmaster, Google Places, Yelp, Foursquare, OpenTripMap, TMDB, RAWG, BoardGameGeek, Wikipedia — for activity, event, and venue discovery.</li>
+    <li>ZenQuotes — for the daily quote widget.</li>
+    <li>Apple &#8212; iCloud (storage), Push Notifications (text notifying you), WeatherKit (weather), StoreKit (purchases), and the Foundation Models framework (AI suggestions).</li>
+  </ul>
+  <p>Each provider processes the data under its own privacy policy. We choose providers that accept query-only traffic and never persist your personal data.
+
+  <h2>6. AI recommendations</h2>
+  <p>Meetly&#8217;s AI suggestions use <strong>Apple&#8217;s Foundation Models framework</strong>. A prompt describing your plan context (dates, approximate location, interests, weather, and group size) is processed <strong>on your device or via Apple&#8217;s Private Cloud Compute</strong>, following Apple&#8217;s privacy commitments for these models. Your prompt content is not used to train Meetly&#8217;s own models, and we do not send it to third-party AI providers. Set an explicit custom prompt and only what is needed to generate a suggestion is included, never your chat messages or contact list.</p>
+  <p>Personalization is driven by the on-device learning records described in <a href="#learning">section 3</a>. Those records shape ranking locally; they are not sent as prompt text to any model provider.</p>
+
+  <h2>7. Children</h2>
+  <p>Meetly is designed for families, but you must be at least <strong>13 years old</strong> to create an account in most regions (16 in the EEA where applicable). We do not knowingly collect personal information from children under 13. If you believe a child under 13 has given us information, contact <a href="mailto:support@meetly.app">support@meetly.app</a> and we will delete it.</p>
+
+  <h2 id="deletion">8. Your rights and choices</h2>
+  <h3>Deleting your account (permanent)</h3>
+  <ol>
+    <li>In Meetly, open <strong>Settings → Danger Zone → Delete Account</strong>.</li>
+    <li>Confirm the deletion dialog. All of your on-device data and your CloudKit records are erased.</li>
+    <li>App Store subscriptions are not cancelled automatically — cancel them in <strong>App Store → subscriptions</strong>.</li>
+  </ol>
+  <h3>Access, correction, and portability</h3>
+  <p>You can export your data from the app at any time: <strong>Settings → Privacy &amp; Data → Export My Usage Data (JSON)</strong>, without contacting us. The export contains your usage-learning events, sessions, and daily summaries in a plain JSON file. For everything else, request it from <a href="mailto:support@meetly.app">support@meetly.app</a>. We will honour access, correction, and deletion requests as required by law, including under GDPR (EEA/UK) and the California Consumer Privacy Act (CCPA/CPRA).</p>
+  <h3>Disabling on-device learning data</h3>
+  <p>You can turn usage learning off at any time in <strong>Settings → Privacy &amp; Data → On-device learning data</strong>. When disabled, new events are no longer recorded; previously recorded events remain in your private iCloud and can be exported or cleared by deleting your account. Core features keep working normally.</p>
+  <h3>Reviewing Apple ID controls</h3>
+  <p>iCloud data remains under the control of Apple&#8217;s privacy settings; you can review Sign in with Apple, iCloud, and push notification permissions at any time in <strong>iOS Settings</strong>.</p>
+
+  <h2>9. Retention</h2>
+  <p>We keep your data only while your account is active. When you delete your account, records are removed from your devices and CloudKit containers, subject to Apple&#8217;s standard deletion propagation (typically completed within 30 days). Aggregated, de-identified statistics may be retained.</p>
+
+  <h2>10. Security</h2>
+  <p>All traffic uses TLS in transit; data at rest is protected by Apple&#8217;s iCloud security (including optional Advanced Data Protection for iCloud accounts). Authentication is delegated entirely to Sign in with Apple — Meetly never stores your password. Groups are invite-only, and invitations travel through Apple&#8217;s CloudKit sharing, which verifies the identity of every participant.</p>
+
+  <h2>11. International transfers</h2>
+  <p>Data is processed on Apple&#8217;s iCloud infrastructure, which may store data in data centers outside your country. Apple&#8217;s cross-border data transfer mechanisms comply with applicable law (including EU SCCs).</p>
+
+  <h2>12. Changes to this policy</h2>
+  <p>We will post changes on this page and note the updated date at the top. Material changes will be highlighted in the app before they take effect.</p>
+
+  <h2>13. Contact</h2>
+  <p>Questions, complaints, or requests: <a href="mailto:support@meetly.app">support@meetly.app</a> — FrameFutura Studio, Meetly Privacy, <a href="mailto:support@meetly.app">support@meetly.app</a>.</p>
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="y">2026</span> FrameFutura Studio. <a href="/meetly-site/terms/">Terms of Service</a> · <a href="/meetly-site/support/">Support</a></p>
+</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
